@@ -1,0 +1,64 @@
+{
+  "version": 3,
+  "hardware_profile": {
+    "graphics_id": "2974e8e64a633c05a87c5e602fc5967b5a173624fe2ce71b71c36156f8402b01",
+    "gpu_vendor_id": 1,
+    "gpu_pci_id": "04:00.0",
+    "gpu_can_do_vulkan": false,
+    "provider_index": 0,
+    "provider_name": "modesetting",
+    "should_prime": false,
+    "use_mesa_gl_override": false,
+    "preferred_roblox_renderer_string": "OpenGL",
+    "is_multi_gpu": false,
+    "version": 2
+  },
+  "show_fast_flag_warning": false,
+  "release_channel": "master",
+  "disable_updates": false,
+  "try_profiling_hardware": true,
+  "default_wine_home": "",
+  "wineprefixes": [
+    {
+      "id": "6fda4aa0-bdbb-427b-97f5-4a40e4c980ea",
+      "priority": 0,
+      "name_on_disk": "new_wineprefix",
+      "display_name": "Main",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_renderer": "OpenGL",
+      "env": {},
+      "hints": [],
+      "fast_flags": {},
+      "third_party": {
+        "fps_unlocker": false,
+        "dxvk": false
+      }
+    },
+    {
+      "id": "de37e3db-0aba-4f5b-8c43-f5e72438c7b1",
+      "priority": 0,
+      "name_on_disk": "player",
+      "display_name": "Player",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_renderer": "OpenGL",
+      "env": {},
+      "hints": [
+        "player",
+        "app"
+      ],
+      "fast_flags": {},
+      "third_party": {}
+    }
+  ],
+  "unsupported_settings": {}
+}

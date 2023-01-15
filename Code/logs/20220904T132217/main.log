@@ -1,0 +1,16 @@
+[2022-09-04 13:22:17.243] [main] [info] update#setState idle
+[2022-09-04 13:22:18.755] [main] [info] Starting extension host with pid 3470 (fork() took 11 ms).
+[2022-09-04 13:22:47.247] [main] [info] update#setState checking for updates
+[2022-09-04 13:22:47.355] [main] [info] update#setState idle
+[2022-09-04 13:39:20.204] [main] [info] Starting extension host with pid 4487 (fork() took 9 ms).
+[2022-09-04 13:39:43.833] [main] [info] Extension host with pid 4487 exited with code: 0, signal: null.
+[2022-09-04 13:39:45.675] [main] [info] Starting extension host with pid 4558 (fork() took 8 ms).
+[2022-09-04 13:40:03.773] [main] [info] Extension host with pid 4558 exited with code: 0, signal: null.
+[2022-09-04 13:40:05.372] [main] [info] Starting extension host with pid 4634 (fork() took 8 ms).
+[2022-09-04 13:40:06.750] [main] [info] Extension host with pid 4634 exited with code: 0, signal: null.
+[2022-09-04 13:41:02.333] [main] [info] Starting extension host with pid 4781 (fork() took 8 ms).
+[2022-09-04 13:41:59.935] [main] [info] Starting extension host with pid 5016 (fork() took 10 ms).
+[2022-09-04 13:42:00.315] [main] [info] Extension host with pid 4781 exited with code: 0, signal: null.
+[2022-09-04 13:42:23.178] [main] [info] Extension host with pid 5016 exited with code: 0, signal: null.
+[2022-09-04 14:22:47.346] [main] [info] update#setState checking for updates
+[2022-09-04 14:22:48.046] [main] [info] update#setState idle

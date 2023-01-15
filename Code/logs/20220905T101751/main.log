@@ -1,0 +1,6 @@
+[2022-09-05 10:17:52.078] [main] [info] update#setState idle
+[2022-09-05 10:17:53.706] [main] [info] Starting extension host with pid 1430 (fork() took 9 ms).
+[2022-09-05 10:18:22.084] [main] [info] update#setState checking for updates
+[2022-09-05 10:18:22.386] [main] [info] update#setState idle
+[2022-09-05 10:28:12.007] [main] [info] Extension host with pid 1430 exited with code: 0, signal: null.
+[2022-09-05 10:28:12.015] [main] [info] Waiting for extension host with pid 1430 to exit.

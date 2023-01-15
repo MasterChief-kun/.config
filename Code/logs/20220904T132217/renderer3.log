@@ -1,0 +1,6 @@
+[2022-09-04 13:39:20.125] [renderer3] [info] [attempt 1] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:39:35.095] [renderer3] [error] [attempt 1] resolveAuthority(ssh-remote) returned an error after 14970 ms {"name":"CodeExpectedError","_message":"","_code":"NotAvailable","_detail":true,"isHandled":true}
+[2022-09-04 13:39:35.096] [renderer3] [info] [attempt 2] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:39:45.622] [renderer3] [info] [attempt 1] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:39:55.923] [renderer3] [error] [attempt 1] resolveAuthority(ssh-remote) returned an error after 10300 ms {"name":"CodeExpectedError","_message":"","_code":"NotAvailable","_detail":true,"isHandled":true}
+[2022-09-04 13:39:55.924] [renderer3] [info] [attempt 2] Invoking resolveAuthority(ssh-remote)

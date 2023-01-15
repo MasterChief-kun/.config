@@ -1,0 +1,10 @@
+[2022-09-03 11:51:10.117] [sharedprocess] [info] Starting worker process with pid 21301 (type: fileWatcher, window: 1).
+[2022-09-03 11:52:03.736] [sharedprocess] [info] Getting Manifest... ms-vscode.powershell
+[2022-09-03 11:52:03.747] [sharedprocess] [info] Installing extension: ms-vscode.powershell
+[2022-09-03 11:52:08.376] [sharedprocess] [info] Downloaded extension: ms-vscode.powershell /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode.powershell-2022.8.5
+[2022-09-03 11:52:10.702] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.5477680d-d549-4f6d-9ef9-f70720d952cf: ms-vscode.powershell
+[2022-09-03 11:52:10.722] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode.powershell-2022.8.5
+[2022-09-03 11:52:10.725] [sharedprocess] [info] Extracting completed. ms-vscode.powershell
+[2022-09-03 11:52:10.728] [sharedprocess] [info] Extension installed successfully: ms-vscode.powershell
+[2022-09-03 14:51:45.092] [sharedprocess] [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}
+[2022-09-03 14:52:19.119] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

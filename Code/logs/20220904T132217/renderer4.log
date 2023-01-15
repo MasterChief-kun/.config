@@ -1,0 +1,107 @@
+[2022-09-04 13:41:02.260] [renderer4] [info] [attempt 1] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:41:13.758] [renderer4] [error] [attempt 1] resolveAuthority(ssh-remote) returned an error after 11497 ms {"name":"CodeExpectedError","_message":"","_code":"NotAvailable","_detail":true,"isHandled":true}
+[2022-09-04 13:41:13.759] [renderer4] [info] [attempt 2] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:41:23.709] [renderer4] [error] [attempt 2] resolveAuthority(ssh-remote) returned an error after 9950 ms {"name":"CodeExpectedError","_message":"Permission denied (publickey,password,keyboard-interactive).","_code":"NotAvailable","_detail":false,"isHandled":false}
+[2022-09-04 13:41:23.710] [renderer4] [info] [attempt 3] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:41:29.083] [renderer4] [error] [attempt 3] resolveAuthority(ssh-remote) returned an error after 5374 ms {"name":"CodeExpectedError","_message":"Permission denied (publickey,password,keyboard-interactive).","_code":"NotAvailable","_detail":false,"isHandled":false}
+[2022-09-04 13:41:29.084] [renderer4] [info] [attempt 4] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:41:32.942] [renderer4] [error] [attempt 4] resolveAuthority(ssh-remote) returned an error after 3858 ms {"name":"CodeExpectedError","_message":"Permission denied (publickey,password,keyboard-interactive).","_code":"NotAvailable","_detail":false,"isHandled":false}
+[2022-09-04 13:41:32.942] [renderer4] [info] [attempt 5] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:41:39.918] [renderer4] [error] [attempt 5] resolveAuthority(ssh-remote) returned an error after 6976 ms {"name":"CodeExpectedError","_message":"","_code":"NotAvailable","_detail":false,"isHandled":false}
+[2022-09-04 13:41:39.919] [renderer4] [error] Error received from starting extension host (kind: Remote)
+[2022-09-04 13:41:39.919] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:39.920] [renderer4] [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+[2022-09-04 13:41:39.920] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:39.930] [renderer4] [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+[2022-09-04 13:41:39.931] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.123] [renderer4] [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+[2022-09-04 13:41:40.124] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.276] [renderer4] [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+[2022-09-04 13:41:40.277] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.353] [renderer4] [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+[2022-09-04 13:41:40.354] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.355] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.355] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.356] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.358] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.360] [renderer4] [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+[2022-09-04 13:41:40.511] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.540] [renderer4] [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:40.783] [renderer4] [error] CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:41:42.594] [renderer4] [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)
+[2022-09-04 13:42:00.282] [renderer4] [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at y._resolveAuthority (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7184)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async y._resolveAuthorityInitial (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:7798)
+    at async y._scanAndHandleExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9633)
+    at async y._initialize (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3189:23560)

@@ -1,0 +1,305 @@
+[13:41:02.788] Log Level: 2
+[13:41:02.791] remote-ssh@0.84.0
+[13:41:02.791] linux x64
+[13:41:02.799] SSH Resolver called for "ssh-remote+gaagrunpc", attempt 1
+[13:41:02.800] "remote.SSH.useLocalServer": true
+[13:41:02.800] "remote.SSH.path": undefined
+[13:41:02.801] "remote.SSH.configFile": undefined
+[13:41:02.801] "remote.SSH.useFlock": true
+[13:41:02.801] "remote.SSH.lockfilesInTmp": false
+[13:41:02.801] "remote.SSH.localServerDownload": auto
+[13:41:02.801] "remote.SSH.remoteServerListenOnSocket": false
+[13:41:02.801] "remote.SSH.showLoginTerminal": false
+[13:41:02.802] "remote.SSH.defaultExtensions": []
+[13:41:02.802] "remote.SSH.loglevel": 2
+[13:41:02.802] "remote.SSH.enableDynamicForwarding": true
+[13:41:02.802] "remote.SSH.enableRemoteCommand": false
+[13:41:02.803] "remote.SSH.serverPickPortsFromRange": {}
+[13:41:02.803] "remote.SSH.serverInstallPath": {}
+[13:41:02.816] SSH Resolver called for host: gaagrunpc
+[13:41:02.816] Setting up SSH remote "gaagrunpc"
+[13:41:02.821] Acquiring local install lock: /tmp/vscode-remote-ssh-43a6f14b-install.lock
+[13:41:02.826] Looking for existing server data file at /home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json
+[13:41:02.827] Using commit id "784b0177c56c607789f9638da7b6bf3230d47a8c" and quality "stable" for server
+[13:41:02.832] Install and start server if needed
+[13:41:02.836] PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+[13:41:02.837] Checking ssh with "ssh -V"
+[13:41:02.846] > OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+
+[13:41:02.851] askpass server listening on /run/user/1000/vscode-ssh-askpass-3a36f1f3b8bd61776a5babef148fa84aa37d4bd1.sock
+[13:41:02.851] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-b0a3a2dc4f6aad8ec7abdf4253d30519db336c9c.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","35349","-o","ConnectTimeout=15","gaagrunpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json"}
+[13:41:02.851] Local server env: {"SHELL":"/bin/fish","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-3a36f1f3b8bd61776a5babef148fa84aa37d4bd1.sock"}
+[13:41:02.856] Spawned 4811
+[13:41:02.986] > local-server-1> Spawned ssh, pid=4819
+[13:41:02.989] stderr> OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+[13:41:03.028] stderr> debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+[13:41:03.489] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:03.490] Showing password prompt
+[13:41:03.492] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-d0395128ae6b6bda0cfbab18376cb74187d0209a.sock
+[13:41:03.492] Writing password prompt to globalState
+[13:41:11.782] Got password response
+[13:41:11.783] Interactor gave response: **************
+[13:41:11.784] Cleaning up other-window auth server
+[13:41:11.825] stderr> Authenticated to gaagrunpc ([192.168.1.92]:22) using "password".
+[13:41:13.584] stderr> client_loop: send disconnect: Broken pipe
+[13:41:13.585] > local-server-1> ssh child died, shutting down
+[13:41:13.591] Local server exit: 0
+[13:41:13.592] Received install output: local-server-1> Spawned ssh, pid=4819
+OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+Authenticated to gaagrunpc ([192.168.1.92]:22) using "password".
+client_loop: send disconnect: Broken pipe
+local-server-1> ssh child died, shutting down
+
+[13:41:13.593] Failed to parse remote port from server output
+[13:41:13.595] Resolver error: Error: 
+	at g.Create (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:585222)
+	at t.handleInstallOutput (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583874)
+	at Object.e [as tryInstallWithLocalServer] (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:624373)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:643506
+	at async t.withShowDetailsEvent (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:647224)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622845
+	at async T (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:619351)
+	at async t.resolveWithLocalServer (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622460)
+	at async t.resolve (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:644834)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:727082
+[13:41:13.603] ------
+
+
+
+
+[13:41:13.763] ------
+
+
+
+
+[13:41:13.763] SSH Resolver called for "ssh-remote+gaagrunpc", attempt 2, (Reconnection)
+[13:41:13.765] SSH Resolver called for host: gaagrunpc
+[13:41:13.765] Setting up SSH remote "gaagrunpc"
+[13:41:13.767] Acquiring local install lock: /tmp/vscode-remote-ssh-43a6f14b-install.lock
+[13:41:13.768] Looking for existing server data file at /home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json
+[13:41:13.768] Using commit id "784b0177c56c607789f9638da7b6bf3230d47a8c" and quality "stable" for server
+[13:41:13.772] Install and start server if needed
+[13:41:13.776] askpass server listening on /run/user/1000/vscode-ssh-askpass-502b9398dc744c0dd63f89fd6c53dffb4fff21dc.sock
+[13:41:13.776] Spawning local server with {"serverId":2,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-46ed959e19e51c54b173961a5221999dc272a842.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","42549","-o","ConnectTimeout=15","gaagrunpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json"}
+[13:41:13.776] Local server env: {"SHELL":"/bin/fish","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-502b9398dc744c0dd63f89fd6c53dffb4fff21dc.sock"}
+[13:41:13.782] Spawned 4832
+[13:41:13.932] > local-server-2> Spawned ssh, pid=4841
+[13:41:13.937] stderr> OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+[13:41:13.994] stderr> debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+[13:41:14.345] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:14.346] Showing password prompt
+[13:41:14.347] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-daa6e93126cb1070d5f1bc6d5851aa3e29735f9b.sock
+[13:41:14.347] Writing password prompt to globalState
+[13:41:23.260] Password dialog canceled
+[13:41:23.260] Interactor signaled cancel
+[13:41:23.261] Cleaning up other-window auth server
+[13:41:23.297] stderr> Permission denied, please try again.
+[13:41:23.447] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:23.517] stderr> Permission denied, please try again.
+[13:41:23.664] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:23.692] stderr> coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+[13:41:23.693] > local-server-2> ssh child died, shutting down
+[13:41:23.700] Local server exit: 0
+[13:41:23.700] Received install output: local-server-2> Spawned ssh, pid=4841
+OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+Permission denied, please try again.
+Permission denied, please try again.
+coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+local-server-2> ssh child died, shutting down
+
+[13:41:23.701] Resolver error: Error: Permission denied (publickey,password,keyboard-interactive).
+	at g.Create (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:585222)
+	at /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583279
+	at t.handleInstallOutput (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583796)
+	at Object.e [as tryInstallWithLocalServer] (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:624373)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:643506
+	at async t.withShowDetailsEvent (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:647224)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622845
+	at async T (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:619351)
+	at async t.resolveWithLocalServer (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622460)
+	at async t.resolve (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:644834)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:727082
+[13:41:23.704] ------
+
+
+
+
+[13:41:23.709] ------
+
+
+
+
+[13:41:23.709] SSH Resolver called for "ssh-remote+gaagrunpc", attempt 3, (Reconnection)
+[13:41:23.711] SSH Resolver called for host: gaagrunpc
+[13:41:23.711] Setting up SSH remote "gaagrunpc"
+[13:41:23.712] Acquiring local install lock: /tmp/vscode-remote-ssh-43a6f14b-install.lock
+[13:41:23.713] Looking for existing server data file at /home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json
+[13:41:23.714] Using commit id "784b0177c56c607789f9638da7b6bf3230d47a8c" and quality "stable" for server
+[13:41:23.717] Install and start server if needed
+[13:41:23.720] askpass server listening on /run/user/1000/vscode-ssh-askpass-1d56e95f0d299649711710f5c058e88d41830114.sock
+[13:41:23.720] Spawning local server with {"serverId":3,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-3428fddf6591aa4f5dafb29921d15a2c66c87fa5.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","34987","-o","ConnectTimeout=15","gaagrunpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json"}
+[13:41:23.721] Local server env: {"SHELL":"/bin/fish","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-1d56e95f0d299649711710f5c058e88d41830114.sock"}
+[13:41:23.726] Spawned 4879
+[13:41:23.891] > local-server-3> Spawned ssh, pid=4887
+[13:41:23.895] stderr> OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+[13:41:23.933] stderr> debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+[13:41:24.288] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:24.289] Showing password prompt
+[13:41:24.290] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-6392bec94e7e10ee88b646bec4bbec6e5f667819.sock
+[13:41:24.290] Writing password prompt to globalState
+[13:41:28.571] Password dialog canceled
+[13:41:28.571] Interactor signaled cancel
+[13:41:28.571] Cleaning up other-window auth server
+[13:41:28.640] stderr> Permission denied, please try again.
+[13:41:28.801] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:28.832] stderr> Permission denied, please try again.
+[13:41:28.978] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:29.049] stderr> coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+[13:41:29.050] > local-server-3> ssh child died, shutting down
+[13:41:29.059] Local server exit: 0
+[13:41:29.059] Received install output: local-server-3> Spawned ssh, pid=4887
+OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+Permission denied, please try again.
+Permission denied, please try again.
+coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+local-server-3> ssh child died, shutting down
+
+[13:41:29.060] Resolver error: Error: Permission denied (publickey,password,keyboard-interactive).
+	at g.Create (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:585222)
+	at /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583279
+	at t.handleInstallOutput (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583796)
+	at Object.e [as tryInstallWithLocalServer] (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:624373)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:643506
+	at async t.withShowDetailsEvent (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:647224)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622845
+	at async T (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:619351)
+	at async t.resolveWithLocalServer (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622460)
+	at async t.resolve (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:644834)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:727082
+[13:41:29.061] ------
+
+
+
+
+[13:41:29.084] ------
+
+
+
+
+[13:41:29.084] SSH Resolver called for "ssh-remote+gaagrunpc", attempt 4, (Reconnection)
+[13:41:29.086] SSH Resolver called for host: gaagrunpc
+[13:41:29.086] Setting up SSH remote "gaagrunpc"
+[13:41:29.087] Acquiring local install lock: /tmp/vscode-remote-ssh-43a6f14b-install.lock
+[13:41:29.088] Looking for existing server data file at /home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json
+[13:41:29.088] Using commit id "784b0177c56c607789f9638da7b6bf3230d47a8c" and quality "stable" for server
+[13:41:29.090] Install and start server if needed
+[13:41:29.093] askpass server listening on /run/user/1000/vscode-ssh-askpass-571535a4cd26ead254a51dcd3a0b2ae7847e1e1f.sock
+[13:41:29.094] Spawning local server with {"serverId":4,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-020ead7f46c37e057b085cc47abe36f8fd064b04.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43337","-o","ConnectTimeout=15","gaagrunpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json"}
+[13:41:29.094] Local server env: {"SHELL":"/bin/fish","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-571535a4cd26ead254a51dcd3a0b2ae7847e1e1f.sock"}
+[13:41:29.100] Spawned 4925
+[13:41:29.252] > local-server-4> Spawned ssh, pid=4933
+[13:41:29.256] stderr> OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+[13:41:29.364] stderr> debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+[13:41:29.826] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:29.826] Showing password prompt
+[13:41:29.827] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-c3ad01bd2783f639fbcd525335f5f450b540f88a.sock
+[13:41:29.827] Writing password prompt to globalState
+[13:41:32.507] Password dialog canceled
+[13:41:32.508] Interactor signaled cancel
+[13:41:32.508] Cleaning up other-window auth server
+[13:41:32.545] stderr> Permission denied, please try again.
+[13:41:32.695] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:32.732] stderr> Permission denied, please try again.
+[13:41:32.897] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:32.921] stderr> coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+[13:41:32.922] > local-server-4> ssh child died, shutting down
+[13:41:32.928] Local server exit: 0
+[13:41:32.928] Received install output: local-server-4> Spawned ssh, pid=4933
+OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+Permission denied, please try again.
+Permission denied, please try again.
+coolb@gaagrunpc: Permission denied (publickey,password,keyboard-interactive).
+local-server-4> ssh child died, shutting down
+
+[13:41:32.932] Resolver error: Error: Permission denied (publickey,password,keyboard-interactive).
+	at g.Create (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:585222)
+	at /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583279
+	at t.handleInstallOutput (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583796)
+	at Object.e [as tryInstallWithLocalServer] (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:624373)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:643506
+	at async t.withShowDetailsEvent (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:647224)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622845
+	at async T (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:619351)
+	at async t.resolveWithLocalServer (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622460)
+	at async t.resolve (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:644834)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:727082
+[13:41:32.934] ------
+
+
+
+
+[13:41:32.949] ------
+
+
+
+
+[13:41:32.949] SSH Resolver called for "ssh-remote+gaagrunpc", attempt 5, (Reconnection)
+[13:41:32.950] SSH Resolver called for host: gaagrunpc
+[13:41:32.950] Setting up SSH remote "gaagrunpc"
+[13:41:32.952] Acquiring local install lock: /tmp/vscode-remote-ssh-43a6f14b-install.lock
+[13:41:32.952] Looking for existing server data file at /home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json
+[13:41:32.953] Using commit id "784b0177c56c607789f9638da7b6bf3230d47a8c" and quality "stable" for server
+[13:41:32.955] Install and start server if needed
+[13:41:32.959] askpass server listening on /run/user/1000/vscode-ssh-askpass-87831a8cb1ac7e61e1011328084ffef279917ec4.sock
+[13:41:32.960] Spawning local server with {"serverId":5,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-0ce59fa6b54be30289788c1836a3f9484ebf65ef.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","33365","-o","ConnectTimeout=15","gaagrunpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/rohanj/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-43a6f14b-784b0177c56c607789f9638da7b6bf3230d47a8c-0.84.0/data.json"}
+[13:41:32.960] Local server env: {"SHELL":"/bin/fish","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-87831a8cb1ac7e61e1011328084ffef279917ec4.sock"}
+[13:41:32.967] Spawned 4971
+[13:41:33.132] > local-server-5> Spawned ssh, pid=4979
+[13:41:33.136] stderr> OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+[13:41:33.390] stderr> debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+[13:41:33.727] Got askpass request: {"request":"coolb@gaagrunpc's password:"}
+[13:41:33.727] Showing password prompt
+[13:41:33.728] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-17c347a3bd1bdfded5921a1e691042262d60f5e1.sock
+[13:41:33.728] Writing password prompt to globalState
+[13:41:38.205] Got password response
+[13:41:38.206] Interactor gave response: **************
+[13:41:38.206] Cleaning up other-window auth server
+[13:41:38.268] stderr> Authenticated to gaagrunpc ([192.168.1.92]:22) using "password".
+[13:41:39.878] stderr> client_loop: send disconnect: Broken pipe
+[13:41:39.880] > local-server-5> ssh child died, shutting down
+[13:41:39.889] Local server exit: 0
+[13:41:39.889] Received install output: local-server-5> Spawned ssh, pid=4979
+OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022
+debug1: Server host key: ssh-ed25519 SHA256:coeCLIaj6DVfDZa9/z5KCd3X6UiWjePsL4ZGa3Q2/NA
+Authenticated to gaagrunpc ([192.168.1.92]:22) using "password".
+client_loop: send disconnect: Broken pipe
+local-server-5> ssh child died, shutting down
+
+[13:41:39.890] Failed to parse remote port from server output
+[13:41:39.891] Resolver error: Error: 
+	at g.Create (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:585222)
+	at t.handleInstallOutput (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:583874)
+	at Object.e [as tryInstallWithLocalServer] (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:624373)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:643506
+	at async t.withShowDetailsEvent (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:647224)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622845
+	at async T (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:619351)
+	at async t.resolveWithLocalServer (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:622460)
+	at async t.resolve (/home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:644834)
+	at async /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0/out/extension.js:1:727082
+[13:41:39.893] ------
+
+
+
+
+[13:41:48.373] Picking SSH host
+[13:41:58.497] Selected coolb@192.168.1.92

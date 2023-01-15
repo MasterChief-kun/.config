@@ -1,0 +1,10 @@
+[2022-09-03 11:51:06.849] [main] [info] update#setState idle
+[2022-09-03 11:51:09.119] [main] [info] Starting extension host with pid 21267 (fork() took 39 ms).
+[2022-09-03 11:51:36.850] [main] [info] update#setState checking for updates
+[2022-09-03 11:51:36.996] [main] [info] update#setState idle
+[2022-09-03 12:51:36.870] [main] [info] update#setState checking for updates
+[2022-09-03 12:51:37.293] [main] [info] update#setState idle
+[2022-09-03 13:51:36.907] [main] [info] update#setState checking for updates
+[2022-09-03 13:51:37.284] [main] [info] update#setState idle
+[2022-09-03 14:51:36.939] [main] [info] update#setState checking for updates
+[2022-09-03 14:51:37.477] [main] [info] update#setState idle

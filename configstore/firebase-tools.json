@@ -1,0 +1,38 @@
+{
+	"analytics-uuid": "8148e4d9-8340-4613-963b-c0a815707996",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1670004285658
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110117358030773248755",
+		"email": "rohanjeendgar@gmail.com",
+		"email_verified": true,
+		"at_hash": "bChSrjpq5XCdJiJyxRJHBQ",
+		"iat": 1670004378,
+		"exp": 1670007978
+	},
+	"tokens": {
+		"expires_at": 1670049121151,
+		"refresh_token": "1//0g-pYZXJxzFzRCgYIARAAGBASNwF-L9Ir-NZ4UkE5NwpFQVLgDW7kmDGhCrWY0C6NCyGf2XM2hb6bfhVCB3-syesripqu0VmgfZo",
+		"scopes": [],
+		"access_token": "ya29.a0AeTM1ieVNj0fyykHgI5pWb5-FlMYZ7PnzJMk4bWSWuxiy6whT1OiMUhTJLbt5EncJiYZTVtpAowOKTJJE_5cKQa_l3qWlZeGR4cugF5XujLF0aIfQ04wJjFOjCJmzRChL0oGXI1wl0OgSW2d_ssEglXT9Jan6RrdlJmE4AaCgYKAQASARMSFQHWtWOmV4po49mVG1Tsubo-dYNlTQ0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE4MzkyM2M4Y2ZlYzEwZjkyY2IwMTNkMDZlMWU3Y2RkNzg3NGFlYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwMTE3MzU4MDMwNzczMjQ4NzU1IiwiZW1haWwiOiJyb2hhbmplZW5kZ2FyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiWjNiOUtWa2VWUTBpV1l5WHhzX2lfZyIsImlhdCI6MTY3MDA0NTYwMywiZXhwIjoxNjcwMDQ5MjAzfQ.UWItqoaTzS7T671YY4ikKRxVTo3LZBRDBFW3cgOaz9PKwSIn4IqSCKOjnCjQULYtFAzzhR5ofNW3eKcZwYXty3-cvMCiMhmz9MniofYv42vnwZ7XLX8u1FSkQNS-pT9AawhFs5yIKL7MBS3r4qFbGzA6lKZ4rwmYsSQ-4aDXxdo3lbki2vu4zD3eROJ5ni7tsTwF3PHYLDnKN1d_eYYw4M8oEcexpvJ3YU4PuCxDzWks8My5Y1F-9jmX2or6_8k62U0jsPe_Qmz_gHyhnIIcSNcd4mb8GzE0PNB8AK9wQyf7T5dRrAfmJGM3Qnw8RvyGvJbIBKS-yr_tqsjCnaI6bg"
+	},
+	"activeProjects": {
+		"/home/rohanj/Projects/ooprojectfrontend": "oop-frontend"
+	}
+}

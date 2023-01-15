@@ -1,0 +1,54 @@
+[2022-09-04 13:22:19.825] [sharedprocess] [info] Starting worker process with pid 3520 (type: fileWatcher, window: 1).
+[2022-09-04 13:38:36.197] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:36.206] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:36.593] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+[2022-09-04 13:38:37.938] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2022-09-04 13:38:40.563] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.80.0
+[2022-09-04 13:38:40.619] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.f023c24a-8b31-421f-a82e-aa338ef4eb6a: ms-vscode-remote.remote-ssh-edit
+[2022-09-04 13:38:40.626] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.80.0
+[2022-09-04 13:38:40.629] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+[2022-09-04 13:38:42.866] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.84.0
+[2022-09-04 13:38:43.042] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.vscode-remote-extensionpack
+[2022-09-04 13:38:43.047] [sharedprocess] [info] Installing extension: ms-vscode-remote.vscode-remote-extensionpack
+[2022-09-04 13:38:43.310] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.e70e25fb-5625-4ee2-8a91-9bdc1056d41c: ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:43.318] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-ssh-0.84.0
+[2022-09-04 13:38:43.322] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:43.325] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+[2022-09-04 13:38:43.325] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:43.771] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-wsl
+[2022-09-04 13:38:45.034] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-containers
+[2022-09-04 13:38:46.187] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh
+[2022-09-04 13:38:46.283] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2022-09-04 13:38:46.284] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2022-09-04 13:38:48.561] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-wsl /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-wsl-0.66.3
+[2022-09-04 13:38:48.843] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.251.0
+[2022-09-04 13:38:48.852] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.2b37adf2-8e45-4e3d-96d0-b175ddfbe211: ms-vscode-remote.remote-wsl
+[2022-09-04 13:38:48.857] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+[2022-09-04 13:38:48.861] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-wsl
+[2022-09-04 13:38:49.486] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.dccdb317-8408-4bd4-a994-ca33136d57bc: ms-vscode-remote.remote-containers
+[2022-09-04 13:38:49.497] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode-remote.remote-containers-0.251.0
+[2022-09-04 13:38:49.501] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-containers
+[2022-09-04 13:38:51.474] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.vscode-remote-extensionpack /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.vscode-remote-extensionpack-0.21.0
+[2022-09-04 13:38:51.513] [sharedprocess] [info] Getting Manifest... ms-vscode.remote-repositories
+[2022-09-04 13:38:51.514] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.258be205-e6fa-4a69-8a44-5af2b96b9880: ms-vscode-remote.vscode-remote-extensionpack
+[2022-09-04 13:38:51.520] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode-remote.vscode-remote-extensionpack-0.21.0
+[2022-09-04 13:38:51.525] [sharedprocess] [info] Installing extension: ms-vscode.remote-repositories
+[2022-09-04 13:38:51.526] [sharedprocess] [info] Extracting completed. ms-vscode-remote.vscode-remote-extensionpack
+[2022-09-04 13:38:51.529] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-wsl
+[2022-09-04 13:38:51.529] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-containers
+[2022-09-04 13:38:51.529] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.vscode-remote-extensionpack
+[2022-09-04 13:38:53.806] [sharedprocess] [info] Downloaded extension: ms-vscode.remote-repositories /home/rohanj/.config/Code/CachedExtensionVSIXs/ms-vscode.remote-repositories-0.20.0
+[2022-09-04 13:38:53.894] [sharedprocess] [info] Extracted extension to /home/rohanj/.vscode/extensions/.81f6b836-5c6c-4f57-b1bf-3f68ecb9a57c: ms-vscode.remote-repositories
+[2022-09-04 13:38:53.902] [sharedprocess] [info] Renamed to /home/rohanj/.vscode/extensions/ms-vscode.remote-repositories-0.20.0
+[2022-09-04 13:38:53.905] [sharedprocess] [info] Extracting completed. ms-vscode.remote-repositories
+[2022-09-04 13:38:53.907] [sharedprocess] [info] Extension installed successfully: ms-vscode.remote-repositories
+[2022-09-04 13:39:20.216] [sharedprocess] [info] Starting worker process with pid 4488 (type: fileWatcher, window: 3).
+[2022-09-04 13:39:43.845] [sharedprocess] [info] Worker process with pid 4488 terminated normally (type: fileWatcher, window: 3).
+[2022-09-04 13:39:45.678] [sharedprocess] [info] Starting worker process with pid 4557 (type: fileWatcher, window: 3).
+[2022-09-04 13:40:03.783] [sharedprocess] [info] Worker process with pid 4557 terminated normally (type: fileWatcher, window: 3).
+[2022-09-04 13:40:05.390] [sharedprocess] [info] Starting worker process with pid 4633 (type: fileWatcher, window: 3).
+[2022-09-04 13:40:06.733] [sharedprocess] [info] Worker process with pid 4633 terminated normally (type: fileWatcher, window: 3).
+[2022-09-04 13:41:02.339] [sharedprocess] [info] Starting worker process with pid 4782 (type: fileWatcher, window: 4).
+[2022-09-04 13:41:59.945] [sharedprocess] [info] Starting worker process with pid 5017 (type: fileWatcher, window: 5).
+[2022-09-04 13:42:00.383] [sharedprocess] [info] Worker process with pid 4782 terminated normally (type: fileWatcher, window: 4).
+[2022-09-04 13:42:23.197] [sharedprocess] [info] Worker process with pid 5017 terminated normally (type: fileWatcher, window: 5).

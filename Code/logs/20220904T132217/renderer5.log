@@ -1,0 +1,5 @@
+[2022-09-04 13:41:59.850] [renderer5] [info] [attempt 1] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:42:20.211] [renderer5] [error] [attempt 1] resolveAuthority(ssh-remote) returned an error after 20361 ms {"name":"CodeExpectedError","_message":"","_code":"NotAvailable","_detail":true,"isHandled":true}
+[2022-09-04 13:42:20.212] [renderer5] [info] [attempt 2] Invoking resolveAuthority(ssh-remote)
+[2022-09-04 13:42:22.123] [renderer5] [error] [attempt 2] resolveAuthority(ssh-remote) returned an error after 1912 ms {"name":"CodeExpectedError","_message":"Permission denied (publickey,password,keyboard-interactive).","_code":"NotAvailable","_detail":false,"isHandled":false}
+[2022-09-04 13:42:22.123] [renderer5] [info] [attempt 3] Invoking resolveAuthority(ssh-remote)

@@ -1,0 +1,20 @@
+[Warn  - 3:11:27 PM] OmniSharp.Extensions.LanguageServer.Server.Configuration.DidChangeConfigurationProvider: No ConfigurationItems have been defined, configuration won't surface any configuration from the client! | 
+[Error - 3:11:27 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesConfigurationHandler: Could not resolve Script Analyzer settings path due to null or empty workspaceRootPath. | 
+[Error - 3:11:28 PM] Microsoft.PowerShell.EditorServices.Services.WorkspaceService: Could not resolve relative script path
+    baseFilePath = 
+        relativePath = PSScriptAnalyzerSettings.psd1
+
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at Microsoft.PowerShell.EditorServices.Services.WorkspaceService.ResolveRelativeScriptPath(String baseFilePath, String relativePath) in D:\a\_work\1\s\src\PowerShellEditorServices\Services\Workspace\WorkspaceService.cs:line 508 | 
+[Warn  - 3:33:38 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing '(' after 'elseif' in if statement. | 
+[Warn  - 3:41:16 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell The string is missing the terminator: ". | 
+[Warn  - 3:41:17 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell The string is missing the terminator: ". | 
+[Warn  - 3:43:23 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Parameter declarations are a comma-separated list of variable names with optional initializer expressions. | 
+[Warn  - 3:43:23 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing ')' in function parameter list. | 
+[Warn  - 3:44:13 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing expression after ','. | 
+[Warn  - 3:44:51 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Missing ')' in function parameter list. | 
+[Warn  - 3:45:38 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token ''*")'' in expression or statement. | 
+[Warn  - 3:45:39 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '$+'*")'' in expression or statement. | 
+[Warn  - 3:45:40 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '$+'*")'' in expression or statement. | 
+[Warn  - 3:46:12 PM] Microsoft.PowerShell.EditorServices.Handlers.PsesCodeActionHandler: textDocument/codeAction skipping diagnostic with empty Code field: PowerShell Unexpected token '$' in expression or statement. | 

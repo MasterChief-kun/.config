@@ -1,0 +1,7 @@
+[2022-09-04 13:42:00.316] [exthost] [info] Extension host with pid 5016 started
+[2022-09-04 13:42:00.362] [exthost] [info] $resolveAuthority invoked for authority (ssh-remote)
+[2022-09-04 13:42:00.370] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+[2022-09-04 13:42:20.217] [exthost] [info] $resolveAuthority invoked for authority (ssh-remote)
+[2022-09-04 13:42:22.141] [exthost] [info] $resolveAuthority invoked for authority (ssh-remote)
+[2022-09-04 13:42:23.167] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-04 13:42:23.168] [exthost] [info] Extension host with pid 5016 exiting with code 0
